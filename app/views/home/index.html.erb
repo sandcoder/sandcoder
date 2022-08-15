@@ -1,2 +1,21 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<%= render 'shared/navigation' %>
+<!-- Page Content-->
+<div class="container-fluid p-0">
+    <!-- About-->
+    <%= render 'about' %>
+    <hr class="m-0" />
+    <!-- Experience-->
+    <%= render 'experience' %>
+    <hr class="m-0" />
+    <!-- Education-->
+    <%= render 'education' %>
+    <hr class="m-0" />
+    <!-- Skills-->
+    <%= render 'skills' %>
+    <hr class="m-0" />
+    <!-- Interests-->
+    <%= render 'interests' %>
+    <hr class="m-0" />
+    <!-- Awards-->
+    <%= render 'awards' %>
+</div>
